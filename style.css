@@ -1,0 +1,75 @@
+@font-face {
+	font-family: Oxygen;
+	src:url("./fonts/Oxygen-Regular.ttf");
+}
+@font-face {
+	font-family: Oxygen-Bold;
+	src:url("./fonts/Oxygen-Bold.ttf");
+}
+
+@font-face {
+	font-family: Alien;
+	src:url("./fonts/Alien.ttf");
+}
+
+body {	background-color: #e8eadc;
+		font-family: Verdana, sans-serif;
+		font-size: 100%; }
+		
+h1 {	text-align: center;
+		color: #646746;
+		font-size: 200%;
+		text-decoration: underline;
+		font-family: Oxygen-Bold;
+		font-style: normal; }
+		
+h2 {	text-align: left;
+		color: #8c622d;
+		letter-spacing: -4px;
+		font-size: 290%;
+		font-family: Alien; }
+		
+.topnav {	background-color: #7c8f54;
+			overflow: hidden;}
+			
+.topnav a {	float: left;
+			color: #f2f2f2;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+			font-size: 17px;}
+			
+.topnav a:hover {	background-color: #7c848c;
+					color: black;}
+					
+.topnav a.active {	background-color: #3c413f;
+					color: white;}
+		
+.para1 {	text-align: left;
+			text-indent:15px;
+			color: #424d2b;
+			font-size: 150%;
+			font-family: Oxygen;}
+			
+.info {		text-align: left;
+			color: black;
+			font-size: 90%;
+			font-family: Oxygen-Bold;}
+		
+.zone1 {	width:68%;
+			z-index:1;
+			position: absolute;}
+			
+.zone2 {	left: 70%;
+			width:30%;
+			height:auto;
+			z-index:2;
+			position: relative;
+			background-color: #e8eadc;}
+			
+form {	margin-top:20px;
+		margin-left:20px;
+		font-family: Oxygen;
+		font-size:150%;}
+		
+p,ul,li {	color: #3c444c; }
